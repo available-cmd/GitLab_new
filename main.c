@@ -3,5 +3,5 @@
 int main()
 {
     // @TODO: print a sentence you want.
-    printf("Hello, world!\n");
+    printf("计算机系统基础nb!\n");
 }
