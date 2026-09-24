@@ -55,7 +55,6 @@ git push origin main
 ```
 三条指令将改动先后放进暂存区、本地仓库和远程仓库。
 
-![可能放个图片进来](\image\pic1)
 
 ## 3 阅读理解
 ### Commit Message 规范
@@ -87,7 +86,7 @@ git push origin main
 ## 4 分支管理 
 利用以下命令创建并切换到新分支feature：
 ```bash
-git switch -c feature
+git cheackout -b feature
 ```
 然后将输出内容修改为"Github nb!"，并上传。然后切回main分支，讲输出内容修改为"Goodbye World"，并上传。
 
@@ -96,10 +95,10 @@ git switch -c feature
 git merge feature
 ```
 发现出现了合并冲突，如图所示：
-![可能放个图片进来](\image\pic2)
+![可能放个图片进来](\image\pic1)
 
 将双方不同的文本内容手动修改为"Hello World"，此时再次提交，发现冲突已经解决。
-
+![可能放个图片进来](\image\pic2)
 
 
 
