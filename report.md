@@ -95,10 +95,10 @@ git cheackout -b feature
 git merge feature
 ```
 发现出现了合并冲突，如图所示：
-![可能放个图片进来](\image\pic1)
+![可能放个图片进来](./image/pic1.png)
 
 将双方不同的文本内容手动修改为"Hello World"，此时再次提交，发现冲突已经解决。
-![可能放个图片进来](\image\pic2)
+![可能放个图片进来](./image/pic2.png)
 
 
 
